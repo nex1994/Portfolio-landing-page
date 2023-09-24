@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
 }
 
 nav {
@@ -12,6 +11,7 @@ nav {
 
 nav header {
     margin-left: 10%;
+    font-size: 24px;
 }
 
 .nav-bar-list {
@@ -19,12 +19,13 @@ nav header {
   display: flex;
   list-style: none;
   margin-right: 10%;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav-bar-list li {
-    padding: 1%;
+    padding: 5px;
     font-size: 14px;
-    justify-content: space-evenly;
 }
 
 .image {
@@ -34,10 +35,44 @@ nav header {
 
 a {
     text-decoration: none;
-    border: 2px solid whitesmoke;
+    border: 2px solid peachpuff;
     border-radius: 15%;
+    color: black;
     
 }
 
+.main {
+    border: 2px solid peachpuff;
+    border-radius: 3%;
+    
+}
+
+.introduction {
+    padding: 4%;
+    display: inline-block;
+    width: 80%;
+    font-size: 24px;
+
+}
+
+.quote {
+    padding: 2%;
+    display: inline-block;
+    width: 70%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.contact {
+    border: 2px solid peachpuff;
+    border-radius: 5%;
+}
 
 
